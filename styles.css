@@ -10,6 +10,11 @@
 :root {
   --bgOrange: #e84949;
 }
+.contact-writing{
+  font-size: 30px;
+  font-style: inherit;
+  color:#ff0dffe3;
+}
 
 #wrapper{
     height:100vh;
@@ -90,7 +95,7 @@ a{
     font-size: 7em;
     color:rgb(231,231,231);
     
-    bottom: -16%;
+    bottom: -12.5%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;
@@ -174,6 +179,7 @@ a{
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
+   
   }
 
   .user-image img{
@@ -463,6 +469,11 @@ a{
     margin-left:120px;
     background-image: url(./images/projects/Project4.png);
   }
+  #project5{
+    
+    background-image: url(./images/projects/Project5.png);
+    background-image: radial-gradient(20px);
+  }
 
   @media (max-width:1300px) {
     .page-header {
@@ -541,7 +552,7 @@ a{
   flex-wrap:wrap;
   width:50%;
   position:relative;
-  gap:2rem;
+  gap:1rem;
   justify-content: center;
 }
 
@@ -551,7 +562,7 @@ a{
   font-style:bold;
   color:rgb(231,231,231);
   bottom:-34.5%;
-  right:-25%;
+  right:-0.1%;
   user-select:none;
   overflow-y:hidden;
 }
